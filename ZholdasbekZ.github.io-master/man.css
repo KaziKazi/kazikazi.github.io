@@ -1,0 +1,33 @@
+li ,#h4 {
+margin: 10px;	
+background: #2CA9E1;
+box-shadow: 0px 6px 0px #2695BC;
+border-radius:10px;
+height:40px;
+list-style-type:none;
+padding-left:5px;
+padding-top:5px;
+}
+ul {
+	margin-left:0;
+	padding-left:0;
+}
+
+a, #h4  {
+	font-size:15px;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+	width:214px;
+	height:40px;
+
+}
+li:hover {
+	background:#114a63;
+}
+body{
+	background: linear-gradient(to left, #35ce94,#59adea);
+}

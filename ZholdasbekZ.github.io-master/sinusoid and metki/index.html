@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Я не знаю что это</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.2.1.js"></script>
+ 	 <script src="js/main.js" defer></script>
+</head>
+<body>
+	<div id="rules_btn">
+    <button onclick="rulShow()">Правила</button>
+    </div>
+			<div class="cont">
+				<div id="pust">
+					<p id="lvl3">3</p>
+					<p id="lvl4">4</p>
+					<p id="lvl5">5</p> 
+					<div id="moved">	
+				</div>
+				<canvas id="c1" width="928px" height="400"></canvas></div>
+				<div class="game">
+					<div class="game1">
+						<h1>Депозит</h1>
+						<div class="btns">
+							<button id="dp_1_5" onclick="sqr5()" ondblclick="sqr55()">5</button>
+							<button id="dp_1_4" onclick="rs4()">4</button>
+							<button id="dp_1_3">3</button>
+						</div>
+						<p></p>
+						<div id="result">
+							<div id="dp_1_res" onclick="gal()"></div>
+							<div onclick="ren_3_5()" id="gal">V</div>
+							<div onclick="ren_5_3()" id="iks">X</div>
+						</div>
+					</div>
+					<div class="game1">
+						<h1>Депозит</h1>
+						<div class="btns">
+							<button id="dp_1_5_2" onclick="sqr52()" ondblclick="sqr552()">5</button>
+							<button id="dp_1_4_2" onclick="rs42()">4</button>
+							<button id="dp_1_3_2">3</button>
+						</div>
+						<p></p>
+						<div id="result">
+							<div id="dp_2_res" onclick="gal2()"></div>
+							<div onclick="ren_3_5_2()" id="gal2">V</div>
+							<div onclick="ren_5_3_2()" id="iks2">X</div>
+						</div>
+					</div>
+					<div class="game1">
+						<h1>Депозит</h1>
+						<div class="btns">
+							<button id="dp_1_5_3" onclick="sqr53()" ondblclick="sqr553()">5</button>
+							<button id="dp_1_4_3" onclick="rs43()">4</button>
+							<button id="dp_1_3_3">3</button>
+						</div>
+						<p></p>
+						<div id="result">
+							<div id="dp_3_res" onclick="gal3()"></div>
+							<div onclick="ren_3_5_3()" id="gal3">V</div>
+							<div onclick="ren_5_3_3()" id="iks3">X</div>
+						</div>
+					</div>
+					<div class="game1">
+						<h1>Депозит</h1>
+						<div class="btns">
+							<button id="dp_1_5_4" onclick="sqr54()" ondblclick="sqr554()">5</button>
+							<button id="dp_1_4_4" onclick="rs44()">4</button>
+							<button id="dp_1_3_4">3</button>
+						</div>
+						<p></p>
+						<div id="result">
+							<div id="dp_4_res" onclick="gal4()"></div>
+							<div onclick="ren_3_5_4()" id="gal4">V</div>
+							<div onclick="ren_5_3_4()" id="iks4">X</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	<div id="rules">
+		<a onclick="rulhide()">X</a> 
+		<center><h1>Правила</h1></center>
+		<ul>
+			<caption>Цвета меток депозита</caption>
+			<li>«5» : Зеленый <div style="background-color: #00FF00;width: 15px;height: 15px; display: inline-block;"></div> </li>
+			<li>«5<sup>2</sup>»: Синий <div style="background-color: blue;width: 15px;height: 15px; display: inline-block;"></div></li>
+			<li>«4» : Розовый <div style="background-color: pink;width: 15px;height: 15px; display: inline-block;"></div></li>
+		</ul>
+		<ul>
+			<li>Если вы поставили депозит «5», в случае проигрыша, депозит «5» изменится на «4», а в случае выигрыша, депозит «4» изменится на «5»  </li>
+			<li>Чтобы поставить депозит «5<sup>2</sup>», вам нужно два раза щелкнуть по депозиту «5»</li>
+			<li>Если вы поставили депозит «5<sup>2</sup>», в случае проигрыша, депозит «5» изменится на «3», а в случае выигрыша, депозит «3» изменится на «5»  </li>
+			<li>Если вы поставили депозит «4», в случае проигрыша, все останется также вы просто проиграете депозит или выиграете депозит  </li>
+		</ul>
+    </div>
+</body>
+</html>

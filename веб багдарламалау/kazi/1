@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+<header>
+<center>
+<a href= "/"><img src=logo.png alt="home"></a>
+<h1>My blog</h1>
+</header>
+<nav>
+</h2>Stranicy</h2>
+<ul>
+<li><a href="/about"> Автор </a></li>
+<li><a href="/news"> Новости</a></li>
+</ul>
+</nav>
+<center>
+<h2>Всем привет<h2>
+<article>
+<p> Меня Зовут Казына и  я хочу познакомить вас с моим миром!!!! </p>
+</article>
+<div id="footer">
+<p><small> Пока </small> </p>
+</div>
+</html>

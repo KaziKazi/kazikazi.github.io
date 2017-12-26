@@ -1,0 +1,12 @@
+.white {
+	background: white;
+	width:100px;
+	height:100px;
+	float: left;
+}
+.black {
+	background: black;
+	width:100px;
+	height:100px;
+	float: left;
+}
